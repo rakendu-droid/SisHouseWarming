@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">SuryaLeela</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="invite" translatable="false">Invitation</string>
+    <string name="wishes" translatable="false">Wish Me</string>
+    <string name="contact" translatable="false">Contact</string>
+    <string name="venue" translatable="false">Venue</string>
+    <string name="direction" translatable="false">Directions</string>
+    <string name="events" translatable="false">Events </string>
+	<string name="alertmessage" translatable="false">Please turn on GPS</string>
+	<string name="alerttitle" translatable="false">Locate me</string>
+	<string name="Ideaspartner" translatable="false">Ideas Partner:Ambika,Krishna,Pruthvi,Rmaya,Shashank,Shubha</string>
+	<string name="TechincalInput" translatable="false">Technical Partner: Rohith Raj,Google</string>
+	<string name="FinancialPartner" translatable="false">Finance Partner: Ravindra,Rajeshwari</string>
+	<string name="lifePartner" translatable="false">Life Partner: Shilpa</string>
+	
+	<string name="add_geofences_result_success" translatable="false">
+        Add Geofences: Success GeofenceRequestIds=%1$s
+    </string>
+    <string name="add_geofences_result_failure" translatable="false">
+        Add Geofences: Failure, error code %1$d GeofenceRequestIds=%2$s
+    </string>
+    <string name="add_geofences_already_requested_error" translatable="false">
+        Can\'t add geofences, previous request hasn\'t finished.
+    </string>
+    <string name="connected" translatable="false">Client connected</string>
+    <string name="connection_failed" translatable="false">Connection failed</string>
+    <string name="disconnected" translatable="false">Client disconnected</string>
+    <string name="geofence_input_error_missing" translatable="false">Missing value</string>
+    <string name="geofence_input_error_latitude_invalid" translatable="false">
+        Invalid latitude(s). Must be in the range -90 to 90 degrees
+    </string>
+    <string name="geofence_input_error_longitude_invalid" translatable="false">
+        Invalid longitude(s). Must be in the range -180 to 180 degrees
+    </string>
+    <string name="geofence_input_error_radius_invalid" translatable="false">
+        Invalid radius(s). Must be 1 meter or greater.
+    </string>
+    <string name="geofence_transition_entered" translatable="false">Entered</string>
+    <string name="geofence_transition_error_detail" translatable="false">
+        Geofence transition error, code %1$d message %2$s.
+    </string>
+    <string name="geofence_transition_exited" translatable="false">Exited</string>
+    <string name="geofence_transition_invalid_type" translatable="false">
+        Geofence transition error. Invalid type %1$d in geofences %2$s
+    </string>
+    <string name="geofence_transition_notification_text" translatable="false">
+        Click notification to return to app
+    </string>
+    <string name="geofence_transition_notification_title" translatable="false">
+        %1$s geofence(s) %2$s
+    </string>
+    <string name="geofence_transition_unknown" translatable="false">Unknown transition</string>
+    <string name="invalid_action" translatable="false">Invalid action received. See error log for details.</string>
+    <string name="invalid_action_detail" translatable="false">Invalid action %1$s received.</string>
+    <string name="invalid_integer_id" translatable="false">Invalid integer request ID: %1$s</string>
+    <string name="latitude_error_message" translatable="false">
+        Latitude should be in the range -90 to 90 degrees
+    </string>
+    <string name="longitude_error_message" translatable="false">
+        Longitude should be in the range -180 to 180 degrees
+    </string>
+    <string name="no_resolution" translatable="false">Google Play services: unable to resolve connection error.</string>
+    <string name="play_services_available" translatable="false">Location Services is available</string>
+    <string name="radius_error_message" translatable="false">Radius must be greater than or equal to 0</string>
+    <string name="register_geofence" translatable="false">Register geofence</string>
+    <string name="remove_geofences_id_failure" translatable="false">
+        Removing geofences by request id failed: error code %1$d GeofenceRequestIds=%2$s
+    </string>
+    <string name="remove_geofences_already_requested_error" translatable="false">
+        Can\'t remove geofences, previous request hasn\'t finished.
+    </string>
+    <string name="remove_geofences_id_success" translatable="false">
+        Removing geofences by request ids succeeded: request ids: %1$s
+    </string>
+    <string name="remove_geofences_intent_failure" translatable="false">
+        Removing all geofences failed: error code %1$d
+    </string>
+    <string name="remove_geofences_intent_success" translatable="false">
+        Removing all geofences succeeded.
+    </string>
+    <string name="transition_entered" translatable="false">entered</string>
+    <string name="transition_exited" translatable="false">exited</string>
+    <string name="transition_unknown" translatable="false">unknown</string>
+    <string name="unknown" translatable="false">--Unknown--</string>
+    <string name="unknown_activity_request_code" translatable="false">
+        Received an unknown activity request code %1$d in onActivityResult.
+    </string>
+    <string name="unregister_geofence" translatable="false">Remove geofences</string>
+    <string name="unregister_geofence1" translatable="false">Remove geofence 1</string>
+    <string name="unregister_geofence2" translatable="false">Remove geofence 2</string>
+
+    <!-- Number patterns -->
+    <string name="lat_lng_pattern" translatable="false">* ###.00000000;* -###.00000000</string>
+    <string name="radius_pattern" translatable="false">* #.0000</string>
+	
+</resources>
